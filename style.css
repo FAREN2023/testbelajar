@@ -1,0 +1,217 @@
+* , html ,body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*==============================================================*/
+
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: 0%;
+    background-color: black;
+    width: 100%;
+    border-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.menu {
+    background-color:  rgb(41, 37, 37);
+}
+
+nav a:hover {
+    background-color: rgb(73, 68, 68);
+    transition: 1s ease-in-out;
+}
+
+.Nav-Menu {
+    background-color: black;
+    margin-top: 1%;
+    width: fit-content;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.Nav-Menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.tentang {
+    position: relative;
+    right: 0%;
+}
+/*==============================================================*/
+
+.Welcome-h1 {
+    color: black;
+
+    display: flex;
+    justify-content: none;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 2em;
+
+    position: relative;
+    top: 100px;
+    left: 5%;
+}
+.kata-kata {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: black;
+    width: 30%;
+}
+
+/*==============================================================*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 90%;
+}
+.box {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    width: 40%;
+    padding: 10px;
+    max-width: 400px;
+}
+.box h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.box p {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.gambar {
+    width: 50%;
+    position: relative;
+    left: 23%;
+    padding: 10px;
+}
+.selanjutnya {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*==============================================================*/
+
+.TUMBAL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.fotter {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    background-color: black;
+    width: 100%;
+    border-bottom: 10px;
+    align-items: center;
+}
+
+.fotter p {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/*==============================================================*/
+
+@media screen and (max-width:400px) {
+    .Welcome-h1 h1 {
+        font-size: 1em;
+    }
+    .Welcome-h1 p {
+        font-size: 0.5em;
+    }
+    .box h1 {
+        font-size: 0.8em;
+    }
+    .box p {
+        font-size: 0.7em;
+    }
+    .selanjutnya {
+        font-size: 0.7em;
+    }
+    nav {
+        font-size: 0.5em;
+    }
+    .Nav-Menu a {
+    font-size: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+}
+@media screen and (min-width:1500px) {
+    .fotter p {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+}
+}
